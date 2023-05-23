@@ -30,32 +30,30 @@
                   <div class="col-12">
     
                       <h2 class="fw-bold text-center">
-                        Login
+                        Sign Up
                       </h2>
     
                       <p class="fw-bold mb-0 mb-md-3 py-0 text-center">Place order here</p>
 
                       <form action="https://fe-screening.onrender.com/login" id="login-form">
                           <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label text-muted">Name <span class="text-danger">*</span></label>
+                            <input class="form-control" id="username-input" name="profileName" required>
+                          </div>
+
+                          <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label text-muted">Username <span class="text-danger">*</span></label>
                             <input class="form-control" id="username-input" name="username" required>
-                          </div>
+                          </div>                          
     
                           <div class="mb-3">
                             <label for="exampleFormControlInput1" class="form-label text-muted">Password <span class="text-danger">*</span></label>
                             <input class="form-control" id="password-input" name="password" requireed>
                           </div>
 
-                          <div class="d-flex flex-wrap justify-content-between">
-                            <div class="form-check">
-                              <input class="form-check-input" type="checkbox" checked id="remember_me">
-                              <label class="form-check-label" for="remember_me">Remember me</label>
-                            </div><a class="">Forgot password?</a>
-                          </div>
-
                           <hr class="my-3">
                           <div class="text-end">
-                            <button class="btn btn-primary" type="submit" id="login-btn">Login</button>
+                            <button class="btn btn-primary" type="submit" id="login-btn">Sign Up</button>
                           </div>
                       </form>
 
